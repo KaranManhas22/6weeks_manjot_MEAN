@@ -9,11 +9,11 @@ if (environment.production) {
 }
 
 export function baseurl(){
-  return "http://127.0.0.1:3015/api/";
+  return "http://98.89.31.122:3018/api/";
 }
 
 export function imageurl(){
-  return "http://127.0.0.1:3015/";
+  return "http://98.89.31.122:3018/";
 }
 
 const provider = [
