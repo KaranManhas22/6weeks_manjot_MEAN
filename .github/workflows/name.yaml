@@ -22,4 +22,5 @@ jobs:
             git pull origin main
             npm i
             npm run build
+            pm2 delete frontend || true
             pm2 start http-server --name frontend -- dist/bicycle -p 3015
