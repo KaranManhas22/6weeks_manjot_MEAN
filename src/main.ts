@@ -9,11 +9,11 @@ if (environment.production) {
 }
 
 export function baseurl(){
-  return "http://98.89.31.122:3018/api/";
+  return "https://back.mnjot.online/api/";
 }
 
 export function imageurl(){
-  return "http://98.89.31.122:3018/";
+  return "https://back.mnjot.online/";
 }
 
 const provider = [
